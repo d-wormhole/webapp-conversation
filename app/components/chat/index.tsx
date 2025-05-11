@@ -25,7 +25,7 @@ export type IChatProps = {
   /**
    * Whether to display the input area
    */
-  isHideSendInput?: boolean
+  isHideSendInput?: true
   onFeedback?: FeedbackFunc
   checkCanSend?: () => boolean
   onSend?: (message: string, files: VisionFile[]) => void
