@@ -25,7 +25,7 @@ export type IChatProps = {
   /**
    * Whether to display the input area
    */
-  isHideSendInput?: true
+  isHideSendInput?: boolean
   onFeedback?: FeedbackFunc
   checkCanSend?: () => boolean
   onSend?: (message: string, files: VisionFile[]) => void
@@ -38,7 +38,7 @@ export type IChatProps = {
 const Chat: FC<IChatProps> = ({
   chatList,
   feedbackDisabled = false,
-  isHideSendInput = false,
+  isHideSendInput = true,
   onFeedback,
   checkCanSend,
   onSend = () => { },
