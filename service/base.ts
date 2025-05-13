@@ -13,7 +13,7 @@ const ContentType = {
 }
 
 const baseOptions = {
-  method: 'GET',
+  method: 'POST',
   mode: 'cors',
   credentials: 'include', // always send cookies、HTTP Basic authentication.
   headers: new Headers({
