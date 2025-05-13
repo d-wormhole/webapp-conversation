@@ -28,7 +28,7 @@ export type IWelcomeProps = {
 
 const Welcome: FC<IWelcomeProps> = ({
   conversationName,
-  hasSetInputs,
+  hasSetInputs=true,
   isPublicVersion,
   siteInfo,
   promptConfig,
