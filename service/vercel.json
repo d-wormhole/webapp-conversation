@@ -2,6 +2,7 @@
   "headers": [
     {
       "source": "/api/(.*)",
+      "destination": "http://agent.d-wormhole.com/v1"
       "headers": [
         {
           "key": "Cache-Control",
