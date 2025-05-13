@@ -38,7 +38,7 @@ export type IChatProps = {
 const Chat: FC<IChatProps> = ({
   chatList,
   feedbackDisabled = false,
-  isHideSendInput = false,
+  isHideSendInput = true,
   onFeedback,
   checkCanSend,
   onSend = () => { },
